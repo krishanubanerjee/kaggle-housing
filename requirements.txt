@@ -1,0 +1,9 @@
+joblib
+numpy
+pandas
+sklearn
+flask
+flask-restful
+
+
+
