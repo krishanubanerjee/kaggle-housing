@@ -26,7 +26,7 @@
  ### Docker is running now
  <br> Download postman - https://www.getpostman.com/downloads/ <br>
  <br> In Postman, click - Create a Request <br>
- <br> Select POST , Enter url - 127.0.0.1:5000/predict <br>
+ <br> Select POST , Enter url - {ip of the machine where you are running the docker image,use localhost if you run postman in same machine}:5000/predict <br>
  <br> Select body --> raw --> JSON <br>
  <br> Paste example like -
  { 
