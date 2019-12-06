@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook
+FROM python:3.7
 EXPOSE 5000
 
 RUN pip install joblib
@@ -15,3 +15,4 @@ COPY train.py ./train.py
 COPY api.py ./api.py
 
 RUN python3 train.py
+CMD [ "python", "./api.py" ]
