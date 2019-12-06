@@ -10,10 +10,12 @@
 ## How to run in remote machine 
 <br> Install docker from https://hub.docker.com/ <br>
 <br> Pull docker container to local machine -    Run from the command prompt -  docker pull bkrishanu/docker-api  <br>
-<br> Run from command prompt -  docker run -it -p 5000:5000 docker-api python3 api.py  <br>
+<br> Run from command prompt -  docker run -d -p 5000:5000 docker-api  <br>
  ### Docker is running now
  <br> Download postman - https://www.getpostman.com/downloads/ <br>
  <br> In Postman, click - Create a Request <br>
+ <br> SELECT GET ,Enter url - {ip of the machine where you are running the docker image,use localhost if you run postman in same machine}:5000/status <br>
+ <br> If running , it will return 'ok' <br>
  <br> Select POST , Enter url - {ip of the machine where you are running the docker image,use localhost if you run postman in same machine}:5000/predict <br>
  <br> Select body --> raw --> JSON <br>
  <br> Paste example like -
