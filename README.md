@@ -11,18 +11,6 @@
 <br> Install docker from https://hub.docker.com/ <br>
 <br> Pull docker container to local machine -    Run from the command prompt -  docker pull bkrishanu/docker-api  <br>
 <br> Run from command prompt -  docker run -it -p 5000:5000 docker-api python3 api.py  <br>
-<br> It will show - <br>
-<br> Loading model from: rf.joblib <br>
- <br> * Serving Flask app "api" (lazy loading) <br>
- <br> * Environment: production <br>
- <br> WARNING: This is a development server. Do not use it in a production deployment.<br>
- <br> Use a production WSGI server instead.<br>
- <br> * Debug mode: on <br>
- <br> * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit) <br>
- <br> * Restarting with stat <br>
-<br> Loading model from: rf.joblib <br>
- <br> * Debugger is active!<br>
- <br> * Debugger PIN: 620-881-786<br>
  ### Docker is running now
  <br> Download postman - https://www.getpostman.com/downloads/ <br>
  <br> In Postman, click - Create a Request <br>
