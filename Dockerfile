@@ -1,4 +1,5 @@
 FROM jupyter/scipy-notebook
+EXPOSE 80
 
 RUN pip install joblib
 
