@@ -31,5 +31,5 @@
    "LotArea":8414,
    "YearBuilt":1963
 } <br>
-<br> Enter SEND , you will get online prediction for new Salesv value . Change any parameters and/or send multiple requests 
+<br> Enter SEND , you will get online prediction for new Sales value . Change any parameters and/or send multiple requests 
 to get different prediction.Please note, if json file is corrupted then need to correct or need to jsonify <br>
