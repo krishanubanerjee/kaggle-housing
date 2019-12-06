@@ -1,5 +1,5 @@
 # kaggle-housing 
-Initial data exploration and model building is in jupyter notebook kaggle_housing_EDA_model_building.ipynb.
+<br> Initial data exploration and model building is in jupyter notebook kaggle_housing_EDA_model_building.ipynb.<br>
  File train.py will build the model for docker using train.csv file . 
  File requirements.txt is used in docker for installing all required module.
 Dockerfile is used creating docker container and image.
