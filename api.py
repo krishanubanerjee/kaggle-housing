@@ -28,14 +28,20 @@ class Prediction(Resource):
                 feature, type = float, required = True, location = 'json',
                 help = 'No {} provided'.format(feature))
         super(Prediction, self).__init__()
-
+    
     def post(self):
         args = self.reqparse.parse_args()
         X = np.array([args[f] for f in self._required_features]).reshape(1, -1)
         y_pred = rf.predict(X)
         return {'prediction': y_pred.tolist()[0]}
 
+class Status(Resource):
+	def get(self):
+	   return {'status' : 'ok'}		
+
 api.add_resource(Prediction, '/predict')
+api.add_resource(Status,'/status')
+
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
