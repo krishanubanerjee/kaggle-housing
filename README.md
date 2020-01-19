@@ -1,4 +1,10 @@
-# kaggle-housing 
+# kaggle-housing
+<br> This project was created for a company interview. They asked me to show one example of how to deploy 
+<br> in docker and online prediction. I created that with example of Kaggle Housing example.
+<br> Exploratory analysis and model building done at high level.Online prediction
+of housing price with some feature input is shown here
+
+## Description
 <br> Initial data exploration and model building is in jupyter notebook kaggle_housing_EDA_model_building.ipynb.<br>
  <br> File train.py will build the model for docker using train.csv file . <br>
  <br> File requirements.txt is used in docker for installing all required module.<br>
